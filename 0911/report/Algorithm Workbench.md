@@ -1,10 +1,10 @@
-1.
+//공통
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h> // malloc, free
-#include <ctype.h>  // toupper
+#include <stdlib.h> 
+#include <ctype.h>  
 
-// 1. 이진수 문자열 -> 정수
+1. 이진수 문자열 -> 정수
 long binary_to_int(const char* bin_str) {
     long number = 0;
     for (int i = 0; bin_str[i] != '\0'; i++) {
