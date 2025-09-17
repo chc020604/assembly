@@ -72,7 +72,8 @@ char* int_to_binary(int num) {
 }
 
 4. 정수 -> 16진수 문자열
-char val_to_hex_char(int n) {
+
+   char val_to_hex_char(int n   ) {
     if (n >= 0 && n <= 9) {
         return n + '0';
     } else {
