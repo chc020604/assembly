@@ -342,3 +342,12 @@ int main() {
     testAllFunctions();
     return 0;
 }
+8.
+
+public class BytecodeExample {
+    public static void main(String[] args) {
+        int Y = 5;  // Initialize Y for demonstration
+        int X = (Y + 4) * 3;
+        System.out.println("X = " + X);
+    }
+}
