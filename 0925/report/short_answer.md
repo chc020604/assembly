@@ -49,8 +49,8 @@
 
 16. Show an example of a block comment.
 	- 답: COMMENT 지시어를 사용합니다.
- - 
-	'''assembly
+
+	'''asm
 	COMMENT !
 	이것은 여러 줄에 걸친
 	블록 주석의 예입니다.
