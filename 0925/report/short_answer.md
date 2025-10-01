@@ -50,12 +50,12 @@
 16. Show an example of a block comment.
 	- 답: COMMENT 지시어를 사용합니다.
 
-	'''asm
+    ~~~
 	COMMENT !
 	이것은 여러 줄에 걸친
 	블록 주석의 예입니다.
 	!
-	'''
+	~~~
 
 17. Why is it not a good idea to use numeric addresses when writing instructions that access variables?
 	- 답: 프로그램이 메모리의 어느 위치에 로드될지 예측할 수 없으므로 고정된 숫자 주소는 틀릴 가능성이 높습니다. 대신 심볼릭 레이블을 사용하면 링커가 정확한 주소를 자동으로 계산해주어 코드를 재배치 가능하게 만듭니다.
