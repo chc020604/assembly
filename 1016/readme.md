@@ -111,7 +111,7 @@ MOV al, [arrayB+2]; AX = 30h
 * CX가 묵시적으로 사용하는 명령어가 LOOP이다.
 * 중첩 루프도 가능하다.
 
-* 모든 questions and Exercsize 즉, 교제 안에 연습 문제가 중간고사로 나옴 / 인의예지신 중도에대해 설명하시오. 
+--모든 questions and Exercsize 즉, 교제 안에 연습 문제가 중간고사로 나옴 / 인의예지신 중도에대해 설명하시오. --
 
 
 
