@@ -108,4 +108,6 @@ ArraySum ENDP
 ~~~
 **USES를 사용해서 push,pop 자동화 시켰을때**
 
+***irvine32 Library를 사용하면 편함(설치필요)***
 
+* 인터럽트 발표 준비
