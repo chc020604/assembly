@@ -39,4 +39,73 @@ L2: ; begin the inner loop
     pop ecx ; restore outer loop count
     loop L1 ; repeat the outer loop
 ~~~
-**loop1을 실행중에 ecx값을 stack에 push해놓고 loop2를 갔다가 pop으로 넣어둔 ecx값을 가지고 와서 돌아온다.
+**loop1을 실행중에 ecx값을 stack에 push해놓고 loop2를 갔다가 pop으로 넣어둔 ecx값을 가지고 와서 돌아온다.**
+
+* main 프로시저(proc)에는 ret(return)가 없지만 일반적인 proc에는 ret가 있다.
+
+* JMP명령은 한 프로시저 안에서만 가능하다
+
+~~~
+SumOf PROC
+    add eax, ebx    :eax에 ebx를 더한다
+    add eax, ecx    :eax에 ecx를 더한다
+    ret
+Sumof ENDP
+~~~
+**eax+ebx+ecx를 eax에 결과가 들어가있다.**
+
+***변수는 모두 stack에 저장되어있다.***
+
+***다음 실행할 명령어주소는 ip에 저장을 한다***
+
+* oprand는 3개가 있음: 수식의 값, 레지스터, 메모리(변수)
+
+~~~
+ArraySum PROC
+        push esi            ; save ESI, ECX
+        push ecx
+        mov eax,0           ; set the sum to zero
+L1:     add eax,[esi]       ; add each integer to sum
+        add esi,TYPE DWORD  ; point to next integer
+        loop L1             ; repeat for array size
+        pop ecx             ; restore ECX, ESI
+        pop esi
+        ret                 ; sum is in EAX
+ArraySum ENDP
+~~~
+**esi와 ecx를 push(루프를 돌고 다시 원래 값으로 돌아와야하기 때문에)하고 루프 돌고 pop으로 돌아옴**
+
+* 리턴벨류는 보통 eax에 저장하는데 pop하면 바로 날라가기 때문에 조심해야한다.
+
+* USES는 push, pop을 자동으로 해주는 명령어다.
+
+
+~~~
+ArraySum PROC
+push esi
+push ecx
+mov eax,0 ; set the sum to zero
+L1:
+add eax,[esi] ; add each integer to sum
+add esi,TYPE DWORD ; point to next integer
+loop L1 ; repeat for array size
+pop ecx
+pop esi
+ret
+ArraySum ENDP
+~~~
+**USES사용 하지 않았을때**
+
+~~~
+ArraySum PROC USES esi ecx
+mov eax,0 ; set the sum to zero
+L1:
+add eax,[esi] ; add each integer to sum
+add esi,TYPE DWORD ; point to next integer
+loop L1 ; repeat for array size
+ret ; sum is in EAX
+ArraySum ENDP
+~~~
+**USES를 사용해서 push,pop 자동화 시켰을때**
+
+
