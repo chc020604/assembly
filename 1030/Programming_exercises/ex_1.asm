@@ -1,5 +1,3 @@
-TITLE 1. Draw Text Colors (Exercise_5_9_1.asm)
-
 INCLUDE Irvine32.inc
 
 .data
