@@ -1,7 +1,7 @@
 ### 1. Write a sequence of statements that use only PUSH and POP instructions to exchange the values in the EAX and EBX registers (PUSH와 POP 명령어만을 사용하여 EAX와 EBX 레지스터의 값을 교환하는 일련의 명령어를 작성하시오.)
 
 > 스택의 **LIFO(Last-In, First-Out)** 특성을 이용하여 두 값을 교환합니다.
-
+f
 ```assembly
 ; 32비트 (EAX, EBX)
 PUSH EAX  ; EAX 값을 스택에 저장 (스택: [EAX])
