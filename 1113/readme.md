@@ -1,8 +1,8 @@
-### Interger Arithmetic
+# Interger Arithmetic
 
 ## shigt and Rotate Instructions
 
-# shift
+### shift
 * SHL: Shift Left   
 * > <<
 * SHR: Shift right  
@@ -23,14 +23,14 @@ shl dl, 2   00010100    = 20 (5 * 2^2)
 ~~~
 * carry가 발생했을때는 위 처럼 곱하기 2의 shift승을 적용할 수 없다.
 
-# Rotate
+### Rotate
 * Rotate가 되었을때도 carry flag가 발생을 한다.
 
-# SHLD/SHRD instructions
+### SHLD/SHRD instructions
 * dest(destination), sourse, count
 * D가 붙으면 시프트를 했을 때 다른 곳에 있는 비트의 최상위 비트로 채워진다 
 
-# Extracting File Data Fields
+### Extracting File Data Fields
 * 컴퓨터 내부에 시간이 이 방식으로 저장되어 있다.
 
 * file 구성: 파일의 각종 정보, 파일의 내용으로 구성되어 있다.
