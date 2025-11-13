@@ -6,11 +6,11 @@
 * SHL: Shift Left   
 * > <<
 * SHR: Shift right  
-* > >> : shift후 최상위 비트를 무조건 0으로 채운다.
+* > \>> : shift후 최상위 비트를 무조건 0으로 채운다.
 * SAL: Shift arithmetic left 
 * > SHL과 같아서 <<<라는게 따로 있지는 않다
 * SAR: Shift arithmetic right   
-* > >>> : shift후 최상위 비트에 맞게 채운다.
+* > \>>> : shift후 최상위 비트에 맞게 채운다.
 
 ~~~
 move dl, 5  00000101    = 5
