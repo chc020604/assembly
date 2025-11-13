@@ -3,10 +3,14 @@
 ## shigt and Rotate Instructions
 
 # shift
-* SHL: Shift Left   <<
-* SHR: Shift right  >> : shift후 최상위 비트를 무조건 0으로 채운다.
-* SAL: Shift arithmetic left (SHL과 같아서 <<<라는게 따로 있지는 않다)
-* SAR: Shift arithmetic right   >>> : shift후 최상위 비트에 맞게 채운다.
+* SHL: Shift Left   
+* > <<
+* SHR: Shift right  
+* > >> : shift후 최상위 비트를 무조건 0으로 채운다.
+* SAL: Shift arithmetic left 
+* > SHL과 같아서 <<<라는게 따로 있지는 않다
+* SAR: Shift arithmetic right   
+* > >>> : shift후 최상위 비트에 맞게 채운다.
 
 ~~~
 move dl, 5  00000101    = 5
@@ -21,3 +25,12 @@ shl dl, 2   00010100    = 20 (5 * 2^2)
 
 # Rotate
 * Rotate가 되었을때도 carry flag가 발생을 한다.
+
+# SHLD/SHRD instructions
+* dest(destination), sourse, count
+* D가 붙으면 시프트를 했을 때 다른 곳에 있는 비트의 최상위 비트로 채워진다 
+
+# Extracting File Data Fields
+* 컴퓨터 내부에 시간이 이 방식으로 저장되어 있다.
+
+* file 구성: 파일의 각종 정보, 파일의 내용으로 구성되어 있다.
