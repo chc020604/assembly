@@ -152,9 +152,9 @@ Q11: Declare a procedure named MultArray that receives two pointers to arrays of
       ptrArray2:PTR DWORD,
       count:DWORD
   ```
-* PROC 선언
-```asm
-MultArray PROC,
+  * PROC 선언
+  ```asm
+  MultArray PROC,
     ptrArray1:PTR DWORD,
     ptrArray2:PTR DWORD,
     count:DWORD
@@ -162,6 +162,7 @@ MultArray PROC,
     ; (프로시저 본문 내용)
     
     ret
-MultArray ENDP
-```
+    MultArray ENDP
+  ```
+
 
