@@ -11,13 +11,13 @@ Draw a picture of the procedure’s stack frame immediately after EBP has been p
 * 답:
 ```
 -----------------  <-- High Memory Address  
-|       10h     |  [EBP \+ 16\] (Third Parameter)  
+|       10h     |  [EBP + 16] (Third Parameter)  
 -----------------  
-|      20h      |  [EBP \+ 12\] (Second Parameter)  
+|      20h      |  [EBP + 12] (Second Parameter)  
 -----------------  
-|      30h      |  [EBP \+ 8\]  (First Parameter)  
+|      30h      |  [EBP + 8]  (First Parameter)  
 -----------------  
-| Return Address|  [EBP \+ 4\]  
+| Return Address|  [EBP + 4]  
 -----------------  
 |    Saved EBP  |  <-- EBP points here (ESP points here)  
 -----------------  <-- Low Memory Address
@@ -164,3 +164,4 @@ MultArray PROC,
     ret
 MultArray ENDP
 ```
+
