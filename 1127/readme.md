@@ -6,6 +6,8 @@
    2. 어셈블리와 c언어가 조합되어있는 라이브러리 만들기
    3. DLL만들기
 
+**bubble sort를 어셈블리로 만들어 봐야겠음**
+
 * chapter에 첫번째 문제는 암기하고 공부하는게 좋다.
 
 # 9장 String and Array
@@ -66,6 +68,7 @@
 
 * row_index랑 column_index로 조정해서 어디든 지정해서 갈수있다.
   * RowSize * row_index를 하면 어디든 갈수있다(?) 
+
 ### Calculating a Row Sum
 
 ### Scale Factors
@@ -77,5 +80,7 @@
 ### Bubble Sort
 
 ### Binary Search
+* sorting이 안되어있으면 못함.
 
 ### Test Program
+
