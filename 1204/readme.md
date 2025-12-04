@@ -19,7 +19,7 @@
 # 10장 Structures and Macros
 
 ---
-'''
+```
     assignment
 variable = expression
                 constant, literal
@@ -33,4 +33,4 @@ control statement
           break, continue
           return
           goto
-'''
+```
