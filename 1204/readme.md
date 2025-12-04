@@ -18,36 +18,19 @@
 
 # 10장 Structures and Macros
 
-## Structures
+---
+'''
+    assignment
+variable = expression
+                constant, literal
+                variable
+                operator
+                function, method
 
-### Defining Structures
-
-### Aligning Structure Fields
-
-### Declaring Structure Variable
-
-### Aligning Structure Variables
-
-### Referencing Structure Variables
-
-### References to Members
-
-### Indirect and Indexed Operands
-
-### Perfomance of Aligned Structure members
-
-### Example: Displaying the System Time
-
-### Structures Containing Structures
-
-### Example: DrunKard's Walk
-
-### Declaring and Using Unions
-* **Be Consistent**
-
-* **Structure Containing a Union**
-
-* **Declaring and Using Union Variables**
-
-## Macros
-
+control statement
+          if, switch
+          for, while, do~while
+          break, continue
+          return
+          goto
+'''
