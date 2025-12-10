@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\assm_final_report\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5569EDB1-53BC-4282-B82F-985B4385E1DB}|..\\BubbleSort_DLL\\BubbleSort_DLL.vcxproj|C:\\Users\\USER\\source\\repos\\BubbleSort_DLL\\BubbleSort_DLL.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5569EDB1-53BC-4282-B82F-985B4385E1DB}|..\\BubbleSort_DLL\\BubbleSort_DLL.vcxproj|C:\\Users\\USER\\source\\repos\\BubbleSort_DLL\\dllmain.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EE146D-44EE-4534-AC17-EB0F84B578F0}|..\\BubbleSortApp\\BubbleSortApp.vcxproj|C:\\Users\\USER\\source\\repos\\assm_final_report\\BubbleSort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72EE146D-44EE-4534-AC17-EB0F84B578F0}|..\\BubbleSortApp\\BubbleSortApp.vcxproj|solutionrelative:BubbleSort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EE146D-44EE-4534-AC17-EB0F84B578F0}|..\\BubbleSortApp\\BubbleSortApp.vcxproj|C:\\Users\\USER\\source\\repos\\assm_final_report\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72EE146D-44EE-4534-AC17-EB0F84B578F0}|..\\BubbleSortApp\\BubbleSortApp.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24D5FD6-0E88-4DA9-BD29-636D8CAA62BF}|assm_final_report.vcxproj|C:\\Users\\USER\\source\\repos\\assm_final_report\\BubbleSort.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D24D5FD6-0E88-4DA9-BD29-636D8CAA62BF}|assm_final_report.vcxproj|solutionrelative:BubbleSort.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 139,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BubbleSort_DLL.def",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BubbleSort_DLL\\BubbleSort_DLL.def",
+              "RelativeDocumentMoniker": "..\\BubbleSort_DLL\\BubbleSort_DLL.def",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\BubbleSort_DLL\\BubbleSort_DLL.def",
+              "RelativeToolTip": "..\\BubbleSort_DLL\\BubbleSort_DLL.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2025-12-10T10:51:58.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BubbleSort.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\assm_final_report\\BubbleSort.h",
+              "RelativeDocumentMoniker": "BubbleSort.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\assm_final_report\\BubbleSort.h",
+              "RelativeToolTip": "BubbleSort.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-10T10:47:30.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BubbleSort.asm",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\assm_final_report\\BubbleSort.asm",
+              "RelativeDocumentMoniker": "BubbleSort.asm",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\assm_final_report\\BubbleSort.asm",
+              "RelativeToolTip": "BubbleSort.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T10:47:26.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\assm_final_report\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\assm_final_report\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-10T10:41:12.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dllmain.c",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\BubbleSort_DLL\\dllmain.c",
+              "RelativeDocumentMoniker": "..\\BubbleSort_DLL\\dllmain.c",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\BubbleSort_DLL\\dllmain.c",
+              "RelativeToolTip": "..\\BubbleSort_DLL\\dllmain.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-10T10:34:20.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+LIBRARY BubbleSort_DLL
+EXPORTS
+    bubbleSort
